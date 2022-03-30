@@ -1,8 +1,86 @@
-body {
-  margin: 0;
-  overflow-x: hidden;
-}
-
+nav {
+    background-color: #3c3a39;
+    color: #fff;
+  }
+  
+  .navbar-nav li {
+    position: relative;
+  
+    /* left: 40px; */
+  }
+  
+  .hero {
+    background: #1c1a19;
+    width: 100%;
+    height: 758px;
+    position: relative;
+    background-image: url(../images/herodesktopV.png);
+    background-size: 635px 640px;
+    background-position: bottom 100px right 0;
+    background-repeat: no-repeat;
+  }
+  
+  .herobody {
+    width: 100%;
+    height: 590px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .heroHeader {
+    position: relative;
+    margin-top: -130px;
+    margin-left: 150px;
+    padding-bottom: 120px;
+  }
+  
+  .heroHeader h1 {
+    width: 566px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71px;
+    line-height: 81px;
+    color: #ff6800;
+    margin-bottom: 24px;
+  }
+  
+  .work {
+    height: 27px;
+    width: 332px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 150px;
+  }
+  
+  .work h2 {
+    width: 566px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff5e1;
+  }
+  
+  .elaborate {
+    width: 327px;
+    height: 124px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+  
+  .elaborate p {
+    width: 566px;
+    height: 123px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+  }
+  
 .background {
   background-image: url(img/about_me.svg);
   background-repeat: no-repeat;
